@@ -1,12 +1,13 @@
 ,COMET (all-cause death),,COMET (all-cause death or hospitalisation),,DIG (all-cause death),,,TOPCAT (composite),
 ,coefficients,HR (95%CI),coefficients,HR (95%CI),,coefficients,HR (95%CI),coefficients,HR (95%CI)
+treatment ,0.16,"1.17 90.78, 1.76)",0.3,"1.35 (0.97, 1.87)",,-0.14,"0.87 (0.69, 1.11)",0.32,"1.38 (0.88, 2.17)"
 treat by male,0.11,"1.11(0.73, 1.70)",-0.26,"0.76(0.53, 1.07)",,0.25,"1.28(0.99, 1.66)",-0.05,"0.95 (0.56, 1.64)"
 treat by age,0.03,"1.03 (0.84, 1.26)",-0.09,"0.92(0.84, 1.01)",,0.01,"1.01(0.90, 1.14)",-0.01,"0.99 (0.75, 1.32)"
-treat by Diabetes,-0.05,"0.95(0.66, 1.37)",-0.07,"0.93(0.67, 1.29)",,-0.14,"0.87(0.69, 1.09)",0,"1.00 (0.57, 1.77)"
+treat by diabetes,-0.05,"0.95(0.66, 1.37)",-0.07,"0.93(0.67, 1.29)",,-0.14,"0.87(0.69, 1.09)",0,"1.00 (0.57, 1.77)"
 treat by frusemide,-0.07,"0.94(0.82, 1.07)",-0.03,"0.97(0.84, 1.11)",,--,--,0,"1.00 (0.79, 1.26)"
 treat by sodium,-0.14,"0.87(0.74, 1.01)",0.01,"1.01(0.87, 1.16)",,--,--,-0.19,"0.83 (0.63, 1.10)"
-treat by egfr,0.23,"1.25 (1.03, 1.52)",0.05,"1.05(0.89, 1.23)",,-0.01,"0.99(0.88, 1.12)",0.18,"1.19 (0.89, 1.59)"
-treat by sbp,0.12,"1.13(0.95, 1.34)",0.07,"1.07(0.93, 1.24)",treat by lowsbp,-0.05,"0.95(0.86, 1.06)",-0.07,"0.93 (0.72, 1.21)"
+treat by eGFR,0.23,"1.25 (1.03, 1.52)",0.05,"1.05(0.89, 1.23)",,-0.01,"0.99(0.88, 1.12)",0.18,"1.19 (0.89, 1.59)"
+treat by SBP,0.12,"1.13(0.95, 1.34)",0.07,"1.07(0.93, 1.24)",treat by lowsbp,-0.05,"0.95(0.86, 1.06)",-0.07,"0.93 (0.72, 1.21)"
 ,,,,,treat by highsbp,-0.1,"0.91(0.81, 1.02)",,
 treat by heart,0.06,"1.06(0.90, 1.25)",0.12,"1.13(0.98, 1.31)",,0.05,"1.05(0.94, 1.17)",-0.11,"0.90 (0.69, 1.17)"
---: Not available; numerical variables are in the same standardised format as supplementary table S5,,,,,,,,,
+"treat by covariate: treatment by covariate interactions; --: Not available; Diabetes and Male are categorical variables, others are all numerical variables and scaled by dividing by the standard deviation (SD) after subtracting the mean (both SD and mean referring to the HF register).",,,,,,,,,
